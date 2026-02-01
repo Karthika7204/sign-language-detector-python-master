@@ -86,3 +86,16 @@ python inference_classifier.py
 - Ensure good lighting and a clear view of your hand during data collection and inference.
 - The model recognizes 19 alphabets: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z.
 - Press 'q' to exit scripts that display a webcam feed.
+
+---
+👩‍💻 Author
+
+Karthika B
+
+---
+
+📜 License
+
+Open-source under the MIT License
+
+---
