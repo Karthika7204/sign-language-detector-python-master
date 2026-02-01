@@ -1,6 +1,29 @@
-# Sign Language Detection Project
+✋ Sign Language Detection System (A–S)
 
-This project uses MediaPipe and a RandomForestClassifier to detect 19 sign language alphabets (A–S, including 'G') from hand landmarks captured via webcam.
+A real-time Sign Language Alphabet Detection system built using MediaPipe Hand Landmarks and a RandomForestClassifier.
+The application captures hand gestures through a webcam and predicts 26 sign language alphabets (A–Z), converting visual gestures into readable text.
+
+This project demonstrates how Computer Vision + Machine Learning can help bridge communication gaps.
+
+---
+
+🚀 Features
+
+📷 Real-time hand tracking using webcam
+
+🖐️ Hand landmark extraction using MediaPipe
+
+🧠 Gesture classification using Random Forest
+
+🔤 Detects 26 alphabets (A–Z)
+
+🧹 Dataset cleaning pipeline
+
+🧪 Custom dataset collection system
+
+💻 Fully offline system
+
+---
 
 ## Prerequisites
 
