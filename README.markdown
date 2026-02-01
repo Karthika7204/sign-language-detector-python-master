@@ -47,13 +47,13 @@ pip install opencv-python mediapipe numpy scikit-learn
 
 ### 3. Project Structure
 Ensure the following scripts are in your project directory:
-- `create_dataset.py`: Collects hand landmark data for 19 alphabets.
+- `create_dataset.py`: Collects hand landmark data for 26 alphabets.
 - `clean_dataset.py`: Cleans the dataset to remove invalid samples.
 - `train_classifier.py`: Trains the RandomForestClassifier model.
 - `inference_classifier.py`: Runs real-time sign language detection.
 
 ### 4. Collect Data
-1. Run the data collection script to capture 500 samples per alphabet (A–S):
+1. Run the data collection script to capture 500 samples per alphabet (A–Z):
    ```bash
    python create_dataset.py
    ```
@@ -80,9 +80,9 @@ Run the inference script for real-time alphabet detection:
 python inference_classifier.py
 ```
 - Point your webcam at your hand to detect signs.
-- The predicted alphabet (A–S) will be displayed on the video feed.
+- The predicted alphabet (A–Z) will be displayed on the video feed.
 
 ## Usage Notes
 - Ensure good lighting and a clear view of your hand during data collection and inference.
-- The model recognizes 19 alphabets: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S.
+- The model recognizes 19 alphabets: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z.
 - Press 'q' to exit scripts that display a webcam feed.
